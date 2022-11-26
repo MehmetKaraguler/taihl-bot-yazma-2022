@@ -40,4 +40,4 @@ Python'da birden fazla koşulu beraber değerlendirmek için kullanırız.
 #
 # print(f"1.futbolcu: {not(futbolcu1['gol'] > 5)}")
 # print(f"2.futbolcu: {not(futbolcu2['gol'] > 5)}")
-#
+
