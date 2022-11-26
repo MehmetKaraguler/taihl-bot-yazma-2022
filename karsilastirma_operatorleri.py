@@ -50,8 +50,3 @@ Python'da değişkenlerin içindeki verileri karşılaştırmak için kullanır�
 
 
 
-
-
-
-
-
