@@ -1,11 +1,10 @@
-# tarayıcı nesnemizi import edelim
-from moduller.tarayici import Tarayici
 from time import sleep
+from moduller.tarayici import Tarayici
 tarayici_nesnesi = Tarayici()
 tarayici = tarayici_nesnesi.al()
 
 # Tarayıcıda gezinme
-tarayici.get("https://teknolojiaihl.meb.k12.tr")
+tarayici.get("https://github.com/erenmustafaozdal/taihl-bot-yazma-2022/blob/master/temel_tarayici_islemleri.py")
 print(tarayici.current_url)
 sleep(1)
 
@@ -27,7 +26,7 @@ sleep(1)
 # pencere boyutunu yazdıralım
 print(tarayici.get_window_size())
 
-# pencere boyutu ayarlayalım,,,,,,,,
+# pencere boyutu ayarlayalım
 tarayici.set_window_size(500, 300)
 sleep(2)
 
@@ -38,18 +37,8 @@ print(tarayici.get_window_position())
 tarayici.set_window_position(100, 500)
 sleep(2)
 
-#pencerimizi tam ekran yapalım
+# pencereyi tam ekran yapalım
 tarayici.maximize_window()
 sleep(2)
-#penceremizi simge durumunda küçültelim
-tarayici.minimize_window()
-sleep(2)
 
-#penceremizi tam ekran yapalım
-tarayici.fullscreen_window()
-sleep(2)
-
-#ekran görüntüsü alalım
-tarayici.save_screenshot("./gorseller/bot-yazma.png")
-
-
+tarayici.save_screenshot("./görseller/bot-yazma.png")
