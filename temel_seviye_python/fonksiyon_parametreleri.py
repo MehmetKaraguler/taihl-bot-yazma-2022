@@ -17,11 +17,8 @@ def ogrenci_kaydet2(ad , soyad , notlar=None)
         # notları integer yap ve ortalamayı hesapla
 notlar_list =) [int(x) for x in notlart.split(",")]
 ortalama = sum /notlar_list/ len (notlar_list)
-else
-notlar=  "not bilgisi yok "
-ortalama  = "ortalama hesaplanamadı"
 
- dosya = open("öğrenciler.txt,mode=a,encoding="utf-8"
+
 
 
 while True:

@@ -1,3 +1,4 @@
 .idea
-log.txt
-öğrenciler.txt
+temel_seviye_python/log.txt
+temel_seviye_python/öğrenciler.txt
+gorseller/*
